@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+  
+<header>
+  
+  <img class = logo src="imagenes/logo.png"widht= 4px heigth= 5px alt= LogoDeALura>
+ 
+</header>
+<h1 class="Titulo">Encriptador <br>de<br>texto</h1>
+<audio controls autoplay>
+  <source src="musica/Música Electrónica De La Pantera Rosa.mp3" type="audio/mp3">
+</audio>
+
+<main>
+   <section class="seccionIzquierda">
+     <textarea class ="TextoAEncriptar"cols="40" rows="8"placeholder="Por favor ingrese el texto a encriptar"></textarea>>
+     <div class = "botones">
+      <p class="advertencia">	&#128994 Solo letras minúsculas y sin acento ortográfico</p>
+       <button class="BotonEncriptador" onclick="BotonEncriptar()">Encriptar</button> 
+       <button class="BotonDesencriptador" onclick="BotonDesencriptar()">Desencriptar</button>
+       
+      </section>
+</div>
+   <section class ="seccionDerecha">
+    <textarea class= "TextoEncriptado"cols="40" rows="8" placeholder=" Aquí se encripta su texto"></textarea>
+     <button class="BotonCopiar" onclick="Copiar()">Copiar</button>
+   </section>
+  
+</main>
+<footer>
+  <p class="DerechoAutor">©Copyright by Debenedetto Sebastián.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</html> 
