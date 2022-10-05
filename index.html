@@ -10,21 +10,19 @@
 <body>
   
 <header>
-  
-  <img class = logo src="imagenes/logo.png"widht= 4px heigth= 5px alt= LogoDeALura>
- 
+  <img class = logo src="imagenes/logo.png"  alt= LogoDeALura/>
+  <h1 class="Titulo">Encriptador de texto</h1>
+
 </header>
-<h1 class="Titulo">Encriptador <br>de<br>texto</h1>
-<audio controls autoplay>
-  <source src="musica/Música Electrónica De La Pantera Rosa.mp3" type="audio/mp3">
-</audio>
+
+
 
 <main>
    <section class="seccionIzquierda">
      <textarea class ="TextoAEncriptar"cols="40" rows="8"placeholder="Por favor ingrese el texto a encriptar"></textarea>>
      <div class = "botones">
       <p class="advertencia">	&#128994 Solo letras minúsculas y sin acento ortográfico</p>
-       <button class="BotonEncriptador" onclick="BotonEncriptar()">Encriptar</button> 
+       <button class="BotonEncriptador"  onclick="BotonEncriptar()">Encriptar</button> 
        <button class="BotonDesencriptador" onclick="BotonDesencriptar()">Desencriptar</button>
        
       </section>
@@ -33,10 +31,12 @@
     <textarea class= "TextoEncriptado"cols="40" rows="8" placeholder=" Aquí se encripta su texto"></textarea>
      <button class="BotonCopiar" onclick="Copiar()">Copiar</button>
    </section>
-  
+   <audio controls autoplay>
+    <source src="musica/Música Electrónica De La Pantera Rosa.mp3" type="audio/mp3">
+  </audio>
 </main>
 <footer>
-  <p class="DerechoAutor">©Copyright by Debenedetto Sebastián.</p>
+    <p class="DerechoAutor">©Copyright by Debenedetto Sebastián.</p>
 </footer>
 
 <script src="script.js"></script>
